@@ -7,4 +7,7 @@ edition = "2021"
 
 [dependencies]
 actix-rt = "2"
-actix-web = "4"
+actix-web = "4.0"
+diesel = { version = "1.4", features = ["sqlite"] }
+diesel_codegen = { version = "1.4", features = ["sqlite"] }
+dotenv = "0.15"
